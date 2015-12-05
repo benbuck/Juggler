@@ -1,0 +1,6 @@
+*.suo
+*.user
+*.vspscc
+*.vssscc
+/Juggler/**/Debug/
+/Juggler/**/Release/

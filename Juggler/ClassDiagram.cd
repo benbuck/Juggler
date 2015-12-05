@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Juggler.Program">
+    <Position X="0.5" Y="4.25" Width="2.75" />
+    <NestedTypes>
+      <Delegate Name="Juggler.Program.ThreadCallback" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Classes\Program.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AABBAAAIAAAAAADCAAAQAIBAAAAAFAgAAAAABAhBABA=</HashCode>
+      <FileName>Classes\Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Juggler.PreferencesForm">
+    <Position X="13.25" Y="0.5" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAApgEgACCCAACAQAAAAAAQCogAggAhAA=</HashCode>
+      <FileName>Forms\PreferencesForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Juggler.Wallpaper">
+    <Position X="3.5" Y="4.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Juggler.Wallpaper.Fit" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Classes\Wallpaper.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BAAEAAAAACAAgAAAAAAAAAIAAASIAAABAAAwAABAAQA=</HashCode>
+      <FileName>Classes\Wallpaper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Juggler.Communicator" BaseTypeListCollapsed="true">
+    <Position X="10" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Communicator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Juggler.CommunicatorProxy" BaseTypeListCollapsed="true">
+    <Position X="10" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Communicator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Juggler.MultiInstanceHandler">
+    <Position X="7.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAEA=</HashCode>
+      <FileName>Classes\Communicator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Juggler.WinXpImageConvertor">
+    <Position X="0.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WinXpImageConvertor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Juggler.ExtensionMethods">
+    <Position X="10.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Juggler.ImageConvertor">
+    <Position X="1.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\ImageConvertor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Juggler.NativeMethods">
+    <Position X="7.5" Y="4.75" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAFAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\NativeMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Juggler.WinVistaImageConvertor">
+    <Position X="2.75" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\WinVistaImageConvertor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Juggler.ICommunicator">
+    <Position X="7.5" Y="2.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Communicator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Juggler.Style">
+    <Position X="7.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAgAAAAAAAQABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Misc\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Juggler.MenuIndex">
+    <Position X="10.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAEAAAAgIAAAAAAgAEA=</HashCode>
+      <FileName>Misc\Enums.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
