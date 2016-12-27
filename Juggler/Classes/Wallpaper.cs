@@ -123,8 +123,8 @@ namespace Juggler {
                     key.SetValue(Tile, "0");
                     break;
                 case Style.BestFit:
-                    key.SetValue(WallpaperStyle,"0");
-                    key.SetValue(Tile,"1");
+                    key.SetValue(WallpaperStyle,"2");
+                    key.SetValue(Tile,"0");
                     break;
                 case Style.Centered:
                     key.SetValue(WallpaperStyle, "1");
@@ -137,9 +137,7 @@ namespace Juggler {
             }
 
             if(style==Style.BestFit)
-                path = resizeImageToBestFit(path,
-                                   new Size(System.Windows.Forms.Screen.PrimaryScreen.Bounds.Width,
-                                            System.Windows.Forms.Screen.PrimaryScreen.Bounds.Height));
+                path = resizeImageToBestFit(path,System.Windows.Forms.Screen.PrimaryScreen.Bounds.Size);
             else
                 path = imageConvertor.GetImage(path);
             
