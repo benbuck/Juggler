@@ -3,6 +3,5 @@
 *.vspscc
 *.vssscc
 /Juggler/**/Debug/
-/Juggler/obj/Release/
-/Juggler/bin/Release/*
+/Juggler/**/Release/
 !/Juggler/bin/Release/app.publish/
