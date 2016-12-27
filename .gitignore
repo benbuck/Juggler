@@ -3,4 +3,6 @@
 *.vspscc
 *.vssscc
 /Juggler/**/Debug/
-/Juggler/**/Release/
+/Juggler/obj/Release/
+/Juggler/bin/Release/*
+!/Juggler/bin/Release/Juggler.exe
