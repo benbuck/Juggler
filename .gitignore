@@ -5,4 +5,4 @@
 /Juggler/**/Debug/
 /Juggler/obj/Release/
 /Juggler/bin/Release/*
-!/Juggler/bin/Release/Juggler.exe
+!/Juggler/bin/Release/app.publish/
